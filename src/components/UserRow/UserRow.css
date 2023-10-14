@@ -1,0 +1,37 @@
+.btn_container {
+  display: flex;
+  justify-content: space-around;
+}
+.action_btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.action_input {
+  padding: 8px;
+  font-size: medium;
+  border: lightgray 0.5px solid;
+}
+
+.action_select {
+  padding: 8px;
+  background-color: white;
+  border: lightgray 0.5px solid;
+}
+
+.selected_row {
+  background-color: #e5e4e2;
+}
+
+.create {
+  color: blue;
+}
+
+.delete {
+  color: red;
+}
+
+.save {
+  color: green;
+}

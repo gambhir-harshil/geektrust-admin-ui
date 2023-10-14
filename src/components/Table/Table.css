@@ -1,0 +1,16 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid lightgray;
+}
+
+th,
+td {
+  padding: 1rem;
+  text-align: left;
+}

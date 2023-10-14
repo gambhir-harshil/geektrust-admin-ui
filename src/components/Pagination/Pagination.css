@@ -1,0 +1,26 @@
+.pagination {
+  margin-left: 1rem;
+}
+.pagination button {
+  height: 2.2rem;
+  width: 2.2rem;
+  padding: 8px;
+  border-radius: 50%;
+  border: none;
+  background-color: #1434a4;
+  color: white;
+  margin-left: 8px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.pagination .active {
+  background-color: white;
+  color: #1434a4;
+  border: #1434a4 1px solid;
+}
+
+.pagination .disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
